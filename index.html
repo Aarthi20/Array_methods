@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1 class="heading">Input Values</h1>
+        <div class="input-container">
+            <label for="arrayInput" class="label-name">Enter an array (comma separated)</label>
+            <input type="text" id="arrayInput" placeholder="e.g., 1, 3, 2, 6, 5">
+        </div>
+        <div class="buttons-container">
+            <button class = "button" array-method = "map">map()</button>
+            <button class = "button" array-method = "filter">filter()</button>
+            <button class = "button" array-method = "reduce">reduce()</button>
+            <button class = "button" array-method = "sort">sort()</button>
+            <button class = "button" array-method = "indexOf">indexOf()</button>
+            <button class = "button" array-method = "find">find()</button>
+            <button class = "button" array-method = "findIndex">findIndex()</button>
+            <button class = "button" array-method = "some">some()</button>
+            <button class = "button" array-method = "every">every()</button>
+        </div>
+        <div class="output-container">
+            <p class="result-heading">Result</p>
+            <p class="display-result" id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
